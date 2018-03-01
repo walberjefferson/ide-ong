@@ -1,5 +1,6 @@
-$(function(){
-/* 
+$(document).ready(function(){
+
+	/* 
 		Submenu.
 		Sobrescreve a função do Bootstrap, fazendo com que suporte multiplos submenus abertos
 	*/
@@ -84,27 +85,5 @@ $(function(){
 		});
 	}
 	//end hamburgerss
-
-	$('.dropdown-submenu a.test').click(function (e) {
-		if ($(this).next().hasClass('dropdown-menu')) {
-			$(this).next('.dropdown-menu').slideDown(500);
-		}
-		e.stopPropagation();
-		e.preventDefault();
-	});
-
-
-	$('.dropdown-submenu a.test').mouseleave(function () {
-		setTimeout(function () {
-			$('.dropdown-submenu a.test').next('.dropdown-menu').slideUp(700);
-		}, 3000);
-	});
-
-
-	var larguraDoacao = $("body").width();
-	if (larguraDoacao < 1400) {
-		$("#doacao-mensal, #doacao-fisica, #doacao-juridica").css('background-position', '-'+(larguraDoacao/30));
-		$("#doacao-fisica .row-line").css('height', '235px');
-	}
 
 });

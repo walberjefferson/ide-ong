@@ -156,6 +156,27 @@
   width: auto;
   clear: none; }
 
+#menu-drop {
+  padding: 0 10px 10px;
+  width: 500px;
+  background-color: #2d5184; }
+  #menu-drop h4 {
+    color: #f3ca30;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  #menu-drop ul {
+    list-style: none;
+    margin-bottom: 15px; }
+    #menu-drop ul li {
+      margin-left: 15px; }
+      #menu-drop ul li a:hover, #menu-drop ul li a:active, #menu-drop ul li a:focus {
+        text-decoration: none; }
+
+#conta-bancaria {
+  color: #2d5184; }
+  #conta-bancaria p {
+    margin-left: 15px; }
+
 * {
   margin: 0;
   padding: 0; }

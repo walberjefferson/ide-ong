@@ -7,9 +7,6 @@ $titulo_site = "Ide Projetos sociais";
     <meta charset="UTF-8">
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
     <title><?php echo $titulo_site; ?></title>
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/OwlCarousel2-2.2.1/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/OwlCarousel2-2.2.1/owl.theme.default.min.css">
     <!--    <link rel="stylesheet" href="assets/css/style.css">-->
     <link rel="stylesheet" href="assets/_css/vendor.css">
     <link rel="stylesheet" href="assets/_css/app.min.css">
@@ -40,7 +37,7 @@ $titulo_site = "Ide Projetos sociais";
 
                         <ul class="list-inline redes">
                             <li>
-                                <a href="https://www.instagram.com/ideprojetos/ " target="_blank" title="Instagram">
+                                <a href="https://www.instagram.com/projetopequeninos.oficial/ " target="_blank" title="Instagram">
                                     <i class="fa fa-instagram fa-3x"></i>
                                 </a>
                             </li>
@@ -50,7 +47,7 @@ $titulo_site = "Ide Projetos sociais";
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UC2FJWpR_WmsDzOaDd2p3d-Q" target="_blank"
+                                <a href="https://www.youtube.com/channel/UCG4heTlSPF5wPyTmLgEtRLw" target="_blank"
                                    title="YouTube">
                                     <i class="fa fa-youtube-play fa-3x"></i>
                                 </a>
@@ -75,38 +72,30 @@ $titulo_site = "Ide Projetos sociais";
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" type="button" id="areas_atuacao" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="true">Áreas de Atuação <i class="fa fa-angle-down"></i> </a>
-                    <ul class="dropdown-menu" aria-labelledby="areas_atuacao">
-                        <li class="dropdown-submenu">
-                            <a class="test" href="#" tabindex="-1">Educação e profissionalizante <i
-                                        class="fa fa-angle-down"></i> </a>
-                            <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="http://lumen.jampa.br/pequeninos/"> Projeto Pequeninos </a></li>
-                                <li><a tabindex="-1" href="http://lumen.jampa.br/pequeninos/pequeninos-teens.php"> Projeto Pequeninos TEENS </a></li>
-                                <li><a tabindex="-1" href="http://lumen.jampa.br/pequeninos/"> Projeto Pequeninos Educação </a></li>
-                                <li><a tabindex="-1" href="http://lumen.jampa.br/pequeninos/profissionalizante.php"> Projeto Pequeninos Profissionalizante </a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a class="test" href="#" tabindex="-1">Saúde <i class="fa fa-angle-down"></i> </a>
-                            <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="http://lumen.jampa.br/pequeninos/saude.php"> Projeto Pequeninos Saúde </a></li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown-submenu">
-                            <a class="test" href="#" tabindex="-1">Assistência Social <i class="fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="http://lumen.jampa.br/pequeninos/casa.php"> Proj. Casa de Acolhimento à Criança </a></li>
-                                <li><a tabindex="-1" href="http://lumen.jampa.br/pequeninos/restaurante.php"> Restaurante Social Pequeninos </a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a href="#" tabindex="-1" class="test">Esporte <i class="fa fa-angle-down"></i> </a>
-                            <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="http://lumen.jampa.br/pequeninos/sports.php">Projeto Pequeninos Sports </a></li>
-                            </ul>
-                        </li>
+                    <ul id="menu-drop" class="dropdown-menu" aria-labelledby="areas_atuacao">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4>Educação e profissionalizante</h4>
+                                <ul>
+                                    <li><a href="http://lumen.jampa.br/pequeninos/"> Projeto Pequeninos </a></li>
+                                    <li><a href="http://lumen.jampa.br/pequeninos/pequeninos-teens.php"> Projeto Pequeninos TEENS </a></li>
+                                    <li><a href="http://lumen.jampa.br/pequeninos/profissionalizante.php"> Projeto Pequeninos Profissionalizante </a></li>
+                                </ul>
+                                <h4>Saúde</h4>
+                                <ul>
+                                    <li><a href="http://lumen.jampa.br/pequeninos/saude.php"> Projeto Pequeninos Saúde </a></li>
+                                </ul>
+                                <h4>Assistência Social</h4>
+                                <ul>
+                                    <li><a href="http://lumen.jampa.br/pequeninos/casa.php"> Proj. Casa de Acolhimento à Criança </a></li>
+                                    <li><a href="http://lumen.jampa.br/pequeninos/restaurante.php"> Restaurante Social Pequeninos </a></li>
+                                </ul>
+                                <h4>Esporte</h4>
+                                <ul>
+                                    <li><a href="http://lumen.jampa.br/pequeninos/sports.php">Projeto Pequeninos Sports </a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </ul>
                 </li>
                 <li <?php if (strpos($_SERVER['PHP_SELF'], 'doacoes.php')) echo 'class="active"'; ?>>

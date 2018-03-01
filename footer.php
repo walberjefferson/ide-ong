@@ -32,12 +32,14 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 cell">
-                <p>Rua Manoel F. de Lima - Soledade, Paraiba, Brazil</p>
+                <p>Rua Gerson Ouriques de Lima, 13</p>
+                <p>Alto São José, Soledade/PB</p>
                 <p>CEP: 58155-000</p>
             </div>
             <div class="col-sm-4 cell">
-                <p>Telefones: (83) 99636-8710</p>
-                <p>(83) 99104-8065</p>
+                <p>Telefones: (83) 99666-8710</p>
+                <p>(83) 99636-8710</p>
+                <p>(83) 99922-9010</p>
             </div>
             <div class="col-sm-4 cell">
                 <p>contato@idesocial.com</p>
@@ -176,79 +178,13 @@
 <script src="https://use.fontawesome.com/f0b16580b6.js"></script>
 
 <!-- <script src="assets/js/biblioteca.min.js"></script> -->
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
 
-<script src="./assets/js/bootstrap/bootstrap.min.js"></script>
-<script src="./assets/js/jquery.mask.js"></script>
+<script src="./assets/_js/scripts.min.js"></script>
+<script src="./assets/_js/scripts.js"></script>
 
-<script src="./assets/js/owl.carousel.min.js"></script>
-<script src="./assets/js/wow/wow.js"></script>
-<script src="./assets/js/scripts.js"></script>
-
-<script>
-    $(document).ready(function () {
-        $('.dropdown-submenu a.test').click(function (e) {
-            if ($(this).next().hasClass('dropdown-menu')) {
-                $(this).next('.dropdown-menu').slideDown(500);
-            }
-            e.stopPropagation();
-            e.preventDefault();
-        });
-
-
-        $('.dropdown-submenu a.test').mouseleave(function () {
-            setTimeout(function () {
-                $('.dropdown-submenu a.test').next('.dropdown-menu').slideUp(700);
-            }, 3000);
-        });
-
-
-        var larguraDoacao = $("body").width();
-        if (larguraDoacao < 1400) {
-            $("#doacao-mensal, #doacao-fisica, #doacao-juridica").css('background-position', '-'+(larguraDoacao/30));
-            $("#doacao-fisica .row-line").css('height', '235px');
-        }
-    });
-</script>
-
-<script>
-
-
-    // $(function () {
-
-    // 	new WOW().init();
-
-    // 	var $window = $(window); //Window object
-
-    // 	var scrollTime = 1.2; //Scroll time
-    // 	var scrollDistance = 170; //Distance. Use smaller value for shorter scroll and greater value for longer scroll
-
-    // 	$window.on("mousewheel DOMMouseScroll", function (event) {
-
-    // 		event.preventDefault();
-
-    // 		var delta = event.originalEvent.wheelDelta / 120 || -event.originalEvent.detail / 3;
-    // 		var scrollTop = $window.scrollTop();
-    // 		var finalScroll = scrollTop - parseInt(delta * scrollDistance);
-
-    // 		TweenMax.to($window, scrollTime, {
-    // 			scrollTo: {
-    // 				y: finalScroll,
-    // 				autoKill: true
-    // 			},
-    // 			ease: Power1.easeOut, //For more easing functions see https://api.greensock.com/js/com/greensock/easing/package-detail.html
-    // 			autoKill: true,
-    // 			overwrite: 5
-    // 		});
-
-    // 	});
-
-    // });
-</script>
 </body>
 
 </html>
