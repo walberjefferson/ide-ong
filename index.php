@@ -37,9 +37,8 @@
                         <h2 class="titulo">Saiba mais SOBRE NÓS</h2>
 
                         <!-- <a href="#" data-toggle="modal" data-target="#modal-saiba-mais" class="video-link"><img src="./assets/images/img-video.jpg" alt="Veja nosso vídeo" class="img-responsive" ></a> -->
-                        <iframe width="100%" height="480" src="https://www.youtube.com/embed/w_2Yu8Ywg2U"
+                        <iframe width="100%" height="480" src="https://www.youtube.com/embed/w_2Yu8Ywg2U?rel=0&controls=0&showinfo=0"
                                 frameborder="0" allowfullscreen class="video"></iframe>
-
                     </div>
                 </div>
             </div>

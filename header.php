@@ -5,9 +5,8 @@ $titulo_site = "Ide Projetos sociais";
 ?>
 <head>
     <meta charset="UTF-8">
-<!--    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
     <title><?php echo $titulo_site; ?></title>
-    <!--    <link rel="stylesheet" href="assets/css/style.css">-->
+    <link rel="icon" href="assets/images/favicon.jpg" sizes="32x32">
     <link rel="stylesheet" href="assets/_css/vendor.css">
     <link rel="stylesheet" href="assets/_css/app.min.css">
 </head>
@@ -77,22 +76,22 @@ $titulo_site = "Ide Projetos sociais";
                             <div class="col-md-12">
                                 <h4>Educação e profissionalizante</h4>
                                 <ul>
-                                    <li><a href="http://lumen.jampa.br/pequeninos/"> Projeto Pequeninos </a></li>
-                                    <li><a href="http://lumen.jampa.br/pequeninos/pequeninos-teens.php"> Projeto Pequeninos TEENS </a></li>
-                                    <li><a href="http://lumen.jampa.br/pequeninos/profissionalizante.php"> Projeto Pequeninos Profissionalizante </a></li>
+                                    <li><a href="/pequeninos/"> Projeto Pequeninos </a></li>
+                                    <li><a href="/pequeninos/pequeninos-teens.php"> Projeto Pequeninos TEENS </a></li>
+                                    <li><a href="/pequeninos/profissionalizante.php"> Projeto Pequeninos Profissionalizante </a></li>
                                 </ul>
                                 <h4>Saúde</h4>
                                 <ul>
-                                    <li><a href="http://lumen.jampa.br/pequeninos/saude.php"> Projeto Pequeninos Saúde </a></li>
+                                    <li><a href="/pequeninos/saude.php"> Projeto Pequeninos Saúde </a></li>
                                 </ul>
                                 <h4>Assistência Social</h4>
                                 <ul>
-                                    <li><a href="http://lumen.jampa.br/pequeninos/casa.php"> Proj. Casa de Acolhimento à Criança </a></li>
-                                    <li><a href="http://lumen.jampa.br/pequeninos/restaurante.php"> Restaurante Social Pequeninos </a></li>
+                                    <li><a href="/pequeninos/casa.php"> Proj. Casa de Acolhimento à Criança </a></li>
+                                    <li><a href="/pequeninos/restaurante.php"> Restaurante Social Pequeninos </a></li>
                                 </ul>
                                 <h4>Esporte</h4>
                                 <ul>
-                                    <li><a href="http://lumen.jampa.br/pequeninos/sports.php">Projeto Pequeninos Sports </a></li>
+                                    <li><a href="/pequeninos/sports.php">Projeto Pequeninos Sports </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -116,6 +115,3 @@ $titulo_site = "Ide Projetos sociais";
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
-
-
-	

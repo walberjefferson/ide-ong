@@ -14,18 +14,18 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/w_2Yu8Ywg2U"
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/w_2Yu8Ywg2U?rel=0&controls=0&showinfo=0"
                             frameborder="0" allowfullscreen class="video"></iframe>
                     <div class="row hidden">
                         <div class="col-md-6">
                             <div class="mini-video">
-                                <iframe width="100%" height="151" src="https://www.youtube.com/embed/w_2Yu8Ywg2U"
+                                <iframe width="100%" height="151" src="https://www.youtube.com/embed/w_2Yu8Ywg2U?rel=0&controls=0&showinfo=0"
                                         frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="mini-video">
-                                <iframe width="100%" height="151" src="https://www.youtube.com/embed/w_2Yu8Ywg2U"
+                                <iframe width="100%" height="151" src="https://www.youtube.com/embed/w_2Yu8Ywg2U?rel=0&controls=0&showinfo=0"
                                         frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>

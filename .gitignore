@@ -1,8 +1,9 @@
-Ajustes_Pequeninos-Ide_Social
-node_modules
-bower_components
+Ajustes_Pequeninos-Ide_Social/
+node_modules/
+bower_components/
 *.psd
-logs
+logs/
 .idea
 Gruntfile.js
 *.zip
+pequeninos/
