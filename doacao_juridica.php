@@ -46,62 +46,62 @@
                         <h2 class="titulo">Dados Empresariais</h2>
 
                         <fieldset>
-                            <label for="">Nome Fantasia</label>
-                            <input type="text" class="form-control" name="nome" id="" required/>
+                            <label for="nome_fantasia">Nome Fantasia</label>
+                            <input type="text" class="form-control" name="nome" id="nome_fantasia" required/>
                         </fieldset>
                         <fieldset>
-                            <label for="">Razão social</label>
-                            <input type="text" class="form-control" name="razao" id="" required/>
+                            <label for="razao_social">Razão social</label>
+                            <input type="text" class="form-control" name="razao" id="razao_social" required/>
                         </fieldset>
                         <fieldset>
-                            <label for="">CNPJ</label>
-                            <input type="text" class="form-control cnpj" name="cnpj" id="" required/>
+                            <label for="cnpj">CNPJ</label>
+                            <input type="text" class="form-control cnpj" name="cnpj" id="cnpj" required/>
                         </fieldset>
                         <div class="row">
                             <div class="col-md-6">
                                 <fieldset>
-                                    <label for="">Telefone Fixo</label>
-                                    <input type="text" class="form-control phone" name="telefone" id="" required/>
+                                    <label for="telefone">Telefone Fixo</label>
+                                    <input type="text" class="form-control phone" name="telefone" id="telefone" />
                                 </fieldset>
                             </div>
                             <div class="col-md-6">
                                 <fieldset>
-                                    <label for="">Telefone Celular</label>
-                                    <input type="text" class="form-control phone" name="celular" id="" required/>
+                                    <label for="celular">Telefone Celular</label>
+                                    <input type="text" class="form-control phone" name="celular" id="celular" required/>
                                 </fieldset>
                             </div>
                         </div>
                         <fieldset>
-                            <label for="">Email</label>
-                            <input type="email" class="form-control" name="email" id="" required/>
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" required/>
                         </fieldset>
 
 
                         <div class="row">
                             <div class="col-md-6">
                                 <fieldset>
-                                    <label for="">Número</label>
-                                    <input type="text" class="form-control" name="numero" id="" required/>
+                                    <label for="numero">Número</label>
+                                    <input type="text" class="form-control" name="numero" id="numero" required/>
                                 </fieldset>
                             </div>
                             <div class="col-md-6">
                                 <fieldset>
-                                    <label for="">Bairro</label>
-                                    <input type="text" class="form-control" name="bairro" id="" required/>
+                                    <label for="bairro">Bairro</label>
+                                    <input type="text" class="form-control" name="bairro" id="bairro" required/>
                                 </fieldset>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <fieldset>
-                                    <label for="">CEP</label>
-                                    <input type="text" class="form-control" name="cep" id="" required/>
+                                    <label for="cep">CEP</label>
+                                    <input type="text" class="form-control" name="cep" id="cep" required/>
                                 </fieldset>
                             </div>
                             <div class="col-md-6">
                                 <fieldset>
-                                    <label for="">UF</label>
-                                    <input type="text" class="form-control" name="uf" id="" required/>
+                                    <label for="uf">UF</label>
+                                    <input type="text" class="form-control" name="uf" id="uf" required/>
                                 </fieldset>
                             </div>
                         </div>
@@ -109,8 +109,8 @@
                     </div>
                     <div class="col-md-12">
                         <fieldset>
-                            <label for="">Mensagem</label>
-                            <textarea type="text" class="form-control" name="mensagem" id="" rows="7"
+                            <label for="mensagem">Mensagem</label>
+                            <textarea type="text" class="form-control" name="mensagem" id="mensagem" rows="7"
                                       required> </textarea>
                         </fieldset>
                         <div class="row">

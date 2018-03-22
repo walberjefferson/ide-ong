@@ -18,7 +18,7 @@ if (!empty($_POST['empresa']) and !empty($_POST['email']) and !empty($_POST['men
 
     /* Pegar dados do formulário via método post */
 //    $mailDestino = "contato@v2i.com.br";
-	$mailDestino = "monica@lumenagencia.com.br";
+	$mailDestino = "monica@lumenagencia.com.br, jairo_henrique28@hotmail.com";
     $mailDeEnvio = "'IDE' <naoresponda@lumenagencia.com.br>";
 
 

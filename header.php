@@ -26,7 +26,7 @@ $titulo_site = "Ide Projetos sociais";
             <div class="col-md-10 col-sm-10">
                 <div class="row col-2">
                     <div class="col-md-3 col-md-offset-6 col-sm-3 col-sm-offset-6">
-                        <a href="doacao_mensal.php" title="" class="link-doe">
+                        <a href="doacao_fisica.php" title="" class="link-doe">
                             <img src="./assets/images/img-doe.png" alt="Doe aqui e ajude quem precisa"
                                  class="img-responsive"/>
                         </a>

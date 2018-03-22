@@ -48,7 +48,7 @@ $assunto = "(Doação Pessoa Jurídica - IDE)";
 
 /* Pegar dados do formulário via método post */
 //$mailDestino = "contato@v2i.com.br";
-$mailDestino = "monica@lumenagencia.com.br";
+$mailDestino = "monica@lumenagencia.com.br, jairo_henrique28@hotmail.com";
 $mailDeEnvio = "'IDE Projetos Sociais' <naoresponda@lumenagencia.com.br>";
 
 

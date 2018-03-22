@@ -55,7 +55,7 @@
                             <div class="col-md-6">
                                 <fieldset>
                                     <label for="">Telefone Fixo</label>
-                                    <input type="text" class="form-control phone" name="telefone" id="" required/>
+                                    <input type="text" class="form-control phone" name="telefone" id="" />
                                 </fieldset>
                             </div>
                             <div class="col-md-6">
